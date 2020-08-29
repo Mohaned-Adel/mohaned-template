@@ -89,36 +89,45 @@ main .img-squ {
     position: relative;
 }
 
-main #border-left {
-    position: absolute;
-    bottom: 0;
-    border-left: 2px solid white;
-    top: 20%;
-    border-width: 0.2em;
-}
-main #border-right {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-left: 2px solid white;
-    bottom: 20%;
-    border-width: 0.2em;
-}
-main #border-top {
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-top: 2px solid white;
-    left: 50%;
-    border-width: 0.2em;
-}
-main #border-bottom {
+main #border-left,
+.edu #border-left {
     position: absolute;
     bottom: 0;
     left: 0;
-    border-bottom: 2px solid white;
+    border-left: 2px solid #ccc;
+    top: 20%;
+    border-width: 0.2em;
+    font-size: 15px;
+}
+main #border-right,
+.edu #border-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-right: 2px solid #ccc;
+    bottom: 20%;
+    border-width: 0.2em;
+    font-size: 15px;
+}
+main #border-top,
+.edu #border-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 2px solid #ccc;
+    left: 50%;
+    border-width: 0.2em;
+    font-size: 15px;
+}
+main #border-bottom,
+.edu #border-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid #ccc;
     right: 50%;
     border-width: 0.2em;
+    font-size: 15px;
 }
 
 main .img-squ img {
@@ -152,3 +161,46 @@ main .btn {
 }
 
 /*  end of main section */
+
+/* start of edu section */
+
+.edu {
+    padding: 6rem 0;
+}
+
+.edu .container {
+    margin: 0 50px;
+}
+
+.edu .edu-cont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.edu .deg-icon,
+.edu .cert-icon {
+    color: #ccc;
+    font-size: 3em;
+    margin: 20px auto;
+    padding: 30px;
+    position: relative;
+    width: fit-content;
+}
+
+.edu h2 {
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.edu h4 {
+    font-size: 1.3rem;
+}
+
+.edu p {
+    margin-top: 1.5em;
+}
+
+/* end of edu section */
