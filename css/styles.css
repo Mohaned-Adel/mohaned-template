@@ -242,3 +242,28 @@ main .btn {
 
 
 /* end of skills section */
+
+/* start of projects section */
+
+.projects {
+    background-color: aqua;
+}
+
+.projects .proj-cont {
+    background-color: blueviolet;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+
+.projects .proj-cont .proj {
+    width: 300px;
+    height: 300px;
+    margin: 30px 0;
+    background: center;
+    margin: 20px auto;
+}
+
+/* end of projects section */
