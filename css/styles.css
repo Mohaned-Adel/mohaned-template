@@ -204,3 +204,39 @@ main .btn {
 }
 
 /* end of edu section */
+
+/* start of skills section */
+
+.skills {
+    background-color: aqua;
+    height: 300px;
+}
+
+.skills .cont-skill {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.skills .cont-skill .technique {
+    margin-right: 5rem;
+}
+
+.skills .cont-skill h3 {
+    color: white;
+}
+
+.skills .cont-skill .technique div {
+    background-color: teal;
+    height: 20px;
+}
+
+.skills .cont-skill div span {
+    background-color: orange;
+    height: 100%;
+    display: block;
+}
+
+
+/* end of skills section */
