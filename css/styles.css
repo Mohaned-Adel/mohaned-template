@@ -344,6 +344,42 @@ main .btn,
     display: block;
 }
 
+.contact .social {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+
+.contact .social a {
+    color: white;
+}
+
+.contact .social span {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 15px;
+    line-height: 15px;
+}
+
+.contact .social span:hover {
+    border-color: transparent;
+}
+
+.contact .social .face:hover {
+    background-color: #3b5999;
+}
+
+.contact .social .linked:hover {
+    background-color: #0077B5;    
+}
+
+.contact .social .github:hover {
+    background-color: #6e5494;
+}
+
+.contact .social .insta:hover {
+    background-color: #e4405f;
+}
 .contact .send-mail {
     background-color: lightskyblue;
     width: 300px;
