@@ -157,7 +157,8 @@ main .title h4 {
     color: #ccc;
 }
 
-main .btn {
+main .btn,
+.contact .btn {
     padding: 0.5em 3em;
     background-color: transparent;
     border: 2px solid white;
@@ -295,3 +296,59 @@ main .btn {
 }
 
 /* end of projects section */
+
+/* start of contact section */
+
+.contact {
+    background-color: khaki;
+    width: 100%;
+    height: 1000px;
+}
+
+.contact .cont-contact {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact .info {
+    background-color: lightgreen;
+    color: white;
+
+}
+
+.contact .info .info-me {
+    display: flex;
+}
+
+.info-name {
+    margin: auto 25px;
+}
+
+.contact .add {
+    margin: 20px 0;
+}
+
+.contact .add div {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+.contact .add p {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contact .btn {
+    margin: 20px auto;
+    display: block;
+}
+
+.contact .send-mail {
+    background-color: lightskyblue;
+    width: 300px;
+}
+
+
+
+/* end of contact section */
