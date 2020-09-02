@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-    height: 10000px;
-}
-
 .container {
     position: relative;
     margin: 0 25px;
@@ -26,6 +22,7 @@ main {
     overflow: hidden;
     height: 100vh;
     max-height: 1000px;
+    min-height: 590px;
     position: relative;
 }
 
@@ -300,21 +297,27 @@ main .btn,
 /* start of contact section */
 
 .contact {
-    background-color: khaki;
-    width: 100%;
-    height: 1000px;
+    background: url(/images/Capture.PNG) no-repeat center;
+    background-size: cover;
+    position: relative;
 }
 
+.contact .cont-gray {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+}
 .contact .cont-contact {
-    background-color: lightcoral;
     display: flex;
     justify-content: space-evenly;
+    padding: 100px 0;
 }
 
 .contact .info {
-    background-color: lightgreen;
     color: white;
-
 }
 
 .contact .info .info-me {
@@ -381,8 +384,33 @@ main .btn,
     background-color: #e4405f;
 }
 .contact .send-mail {
-    background-color: lightskyblue;
-    width: 300px;
+    width: 60%;
+}
+
+.contact .send-mail input,
+.contact .send-mail textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px 5px;
+}
+
+.contact .send-mail textarea {
+    height: 150px;
+}
+
+.contact .send-mail .sub {
+    background-color: orange;
+    border-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
 }
 
 
