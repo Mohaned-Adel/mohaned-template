@@ -397,7 +397,8 @@ main .btn,
 }
 
 .contact .send-mail textarea {
-    height: 150px;
+    height: 250px;
+    resize: none;
 }
 
 .contact .send-mail .sub {
