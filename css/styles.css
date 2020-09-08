@@ -279,17 +279,22 @@ main .btn,
 
 .projects .proj .proj-card {
     position: absolute;
-    bottom: 0;
+    bottom: -1;
     width: 100%;
     height: 30%;
     background-color: white;
     padding: 10px;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    transition: 0.5s;
 }
 
 .projects .proj-card h2 {
     margin-bottom: 10px;
+}
+
+.projects .proj:hover .proj-card {
+    bottom: 0;
 }
 
 /* end of projects section */
