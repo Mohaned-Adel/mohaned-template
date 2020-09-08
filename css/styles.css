@@ -49,11 +49,9 @@ main nav .logo {
 }
 
 main nav ul {
-    color: black;
     font-size: 1.3rem;
-    list-style-type: none;
-    overflow: hidden;
-    padding: 50px;
+    padding: 50px 0;
+    margin: auto 0;
 }
 
 main li {
@@ -72,6 +70,14 @@ main li a,
 
 main li:last-child {
     padding-right: 0;
+}
+
+.menu-container {
+    display: none;
+}
+
+.menu-container .close {
+    display: none;
 }
 
 main .main-cont {
@@ -264,7 +270,6 @@ main .btn,
 .projects .proj-cont .proj {
     width: 300px;
     height: 300px;
-    margin: 30px 0;
     background: center;
     margin: 20px auto;
     position: relative;
@@ -418,7 +423,83 @@ main .btn,
 ::-webkit-input-placeholder {
     text-align: center;
 }
-
-
-
 /* end of contact section */
+
+@media screen and (max-width: 750px) {
+    .container {
+        margin: auto;
+    }
+    .menu-container {
+        display: block;
+        margin: auto 20px;
+        font-size: 24px;
+        color: white;
+        cursor: pointer;
+    }
+
+    main nav ul {
+        /* position: fixed; */
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        z-index: 1;
+    }
+
+    main li {
+        display: block;
+        text-align: center;
+        margin: 50px;
+        padding: 0;
+    }
+
+    .menu-container .close {
+        /* position: fixed; */
+        left: 50px;
+        display: block;
+        z-index: 2;
+    }
+
+    .edu .edu-cont {
+        flex-wrap: wrap;
+    }
+
+    .skills .container {
+        margin: auto 25px;
+    }
+
+    .skills .cont-skill .technique {
+        margin: 25px auto;
+    }
+
+    .projects .proj-cont {
+        padding: 100px 0;
+    }
+
+    .projects .proj .proj-card {
+        bottom: 0;
+    }
+
+    .contact .send-mail {
+        display: none;
+    }
+
+    .contact .social span {
+        border-color: transparent;
+    }
+    
+    .contact .social .face {
+        background-color: #3b5999;
+    }
+    
+    .contact .social .linked {
+        background-color: #0077B5;    
+    }
+    
+    .contact .social .github {
+        background-color: #6e5494;
+    }
+    
+    .contact .social .insta {
+        background-color: #e4405f;
+    }
+}
