@@ -464,6 +464,10 @@ main .btn,
         padding: 0;
     }
 
+    main .btn.resume {
+        margin-bottom: 30px;
+    }
+
     nav .close {
         text-align: center;
         display: block;
